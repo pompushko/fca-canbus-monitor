@@ -20,6 +20,8 @@ namespace CanBusMonitor.PoC.Parsing.Nodes
                     return new STNBNodeReader(canMessage);
                 case MOTGEARNodeReader.TypeIdentifier:
                     return new MOTGEARNodeReader(canMessage);
+                case STNB_CUSW11NodeReader.TypeIdentifier:
+                    return new STNB_CUSW11NodeReader(canMessage);
                 default:
                     throw new NotSupportedException();
             }
