@@ -4,7 +4,24 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <LangVersion>latest</LangVersion>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="15.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="canusbdrv64_net">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\LAWICEL\CANUSB\libs\canusbdrv64_net.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="FTD2XX_NET">
+      <HintPath>..\..\..\..\..\..\..\..\Work\FTD2XX_NET_v1.1.0\FTD2XX_NET.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
 
   <ItemGroup>
     <None Update="Samples\Can_500k_Alfa_159.txt">
