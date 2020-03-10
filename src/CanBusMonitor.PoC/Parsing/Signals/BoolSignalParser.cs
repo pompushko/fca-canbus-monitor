@@ -23,7 +23,7 @@ namespace CanBusMonitor.PoC.Parsing.Signals
 
         public override string ToString()
         {
-            return Value.ToString();
+            return Value ? "1" : "0";
         }
     }
 }
