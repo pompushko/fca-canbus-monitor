@@ -10,7 +10,7 @@ namespace CanBusMonitor.PoC.Parsing.Nodes
         public override int Identifier => TypeIdentifier;
 
         // The frame STNB_CUSW11 contains the values of Hand brake status, CompressorACReqSts, Drive ModeSelection, External temperature fail status, External temperature.
-        public override string Name => "STNB_CUSW11";
+        public override string Name => Constants.Protocols.STNB_CUSW11;
 
         public const int TypeIdentifier = 0x4E0;
 

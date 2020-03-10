@@ -9,7 +9,7 @@ namespace CanBusMonitor.PoC.Parsing.Nodes
 
         public override int Identifier => TypeIdentifier;
 
-        public override string Name => "STNB";
+        public override string Name => Constants.Protocols.STNB;
 
         public const int TypeIdentifier = 0x560;
 
