@@ -33,4 +33,7 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Parsing\Writers\" />
+  </ItemGroup>
 </Project>

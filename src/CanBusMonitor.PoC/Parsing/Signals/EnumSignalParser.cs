@@ -26,7 +26,7 @@ namespace CanBusMonitor.PoC.Parsing.Signals
 
         public override string ToString()
         {
-            return $"{Name}:{Value}";
+            return Value.ToString();
         }
 
         private int GetValue(BitArray source, int offset, int length)

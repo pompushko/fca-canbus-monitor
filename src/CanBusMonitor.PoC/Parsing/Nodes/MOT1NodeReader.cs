@@ -9,7 +9,7 @@ namespace CanBusMonitor.PoC.Parsing.Nodes
 
         public override int Identifier => TypeIdentifier;
 
-        public override string Name => "MOT1";
+        public override string Name => Constants.Protocols.MOT1;
 
         public const int TypeIdentifier = 0x361;
 
